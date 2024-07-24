@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hambuger menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+  margin-left: 20px;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+.dark .hamburger-top .hamburger-middle .hamburger-bottom {
+  color: #fff;
+}
+
+.dark {
+  background-image: url("../img/dark-screen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(227, 12%, 61%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.images-black-bg {
+  background-image: url("../img/black-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: hsl(12, 88%, 59%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-dark-mode {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2px;
+  border-radius: 5px;
+}
+.call {
+  color: #000;
+}
+
+.content-header {
+  margin: 0 auto;
+  animation: typing 5.5s steps(40, end), blink-caret 5.5s linear 0.5s infinite;
+  letter-spacing: 0.15em;
+  overflow: hidden;
+  border-right: 0.15em solid hsl(12, 88%, 59%);
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+}
+
+.main-header {
+  --tw-text-opacity: 1;
+  columns: hsl(12, 88%, 59%);
+}
+
+.img-container {
+  height: 95%;
+}
+
+.image:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition: all 0.7s ease-in-out;
+}
+
+.social-image:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition: all 0.7s ease-in-out;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 50%;
+}

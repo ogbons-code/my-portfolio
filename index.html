@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="full-section">
+
+        <!-- Home Section -->
+        <section id="home">
+            <!-- navbar -->
+            <nav class="relative container mx-auto p-6 ">
+                <!-- flex Container -->
+                <div class="flex items-center justify-between">
+                    <!-- my Name -->
+                    <div class="pt-2 flex flex-row">
+                        <img src="img/logo.png" class="rounded-md w-20 h-16">
+                        <h2 class="text-brightRed font-bold text-2xl ms-3 mt-5
+                 hover:text-brightRedLight">Samson Ogbonna</h2>
+                    </div>
+                    <!-- menu-items -->
+                    <div class="hidden md:flex space-x-6 font-serif font-bold me-5 ">
+                        <div>
+                            <a href="#home" class="hover:text-darkGrayishBlue
+                            hover:border-b-darkGrayishBlue hover:border-2 hover:py-1 hover:px-1">Home</a>
+                        </div>
+                        <div>
+                            <a href="#About-Me" class="hover:text-darkGrayishBlue
+                            hover:border-b-darkGrayishBlue hover:border-2 hover:py-1 hover:px-1">About</a>
+                        </div>
+                        <div>
+                            <a href="#projects" class="hover:text-darkGrayishBlue
+                            hover:border-b-darkGrayishBlue hover:border-2 hover:py-1 hover:px-1">Projects</a>
+                        </div>
+
+                        <div>
+                            <a href="#my-resume" class="hover:text-darkGrayishBlue
+                            hover:border-b-darkGrayishBlue hover:border-2 hover:py-1 hover:px-1">Resume</a>
+                        </div>
+                        <div>
+                            <a href="#contact-me" class="hover:text-darkGrayishBlue
+                        hover:border-b-darkGrayishBlue hover:border-2 hover:py-1 hover:px-1">Contact</a>
+                        </div>
+
+                    </div>
+                    <!-- Dark mode button -->
+                    <button id="dark-mode" class=" px-3 py-1 md:px-3  ms-5
+                    text-white bg-slate-900
+                           rounded-md baseline hover:bg-slate-400 
+                              text-md font-serif font-semibold">
+                        Dark Mode
+                    </button>
+
+                    <!-- Hamburger Menu -->
+                    <button id="hamburger-btn" class="block hamburger md:hidden focus:outline-none">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
+
+                <div class="md:hidden">
+                    <div id="menu" class="absolute flex-col items-center hidden
+                     self-end py-4 mt-10 space-y-6 
+                     bg-white font-bold sm:self-center sm:w-auto
+                      left-6 right-6 drop-shadow-md">
+                        <a href="#home" class="hover:text-darkGrayishBlue">Home</a>
+                        <a href="#About-Me" class="hover:text-darkGrayishBlue">About me</a>
+                        <a href="#projects" class="hover:text-darkGrayishBlue">Projects</a>
+                        <a href="#my-resume" class="hover:text-darkGrayishBlue">Resume</a>
+                        <a href="#contact-me" class="hover:text-darkGrayishBlue">Contact Me</a>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div class="pb-5">
+                <img src="img/sam-pic.png" class=" top-image image block mx-auto">
+                <figcaption class="text-center
+                 text-xl text-brightRed font-bold 
+                hover:text-brightRedLight mb-5
+                ">Samson Ogbonna</figcaption>
+            </div>
+
+            <div id="main-header">
+                <h1 id="title-header" class="content-header main-header
+                text-center text-lg md:text-4xl lg:text-6xl text-brightRed font-bold 
+                hover:text-brightRedLight ">
+                    FRONTEND WEB DEVELOPER
+                </h1>
+            </div>
+
+        </section>
+
+
+        <!-- Section About Me -->
+        <section id="About-Me">
+            <!-- Flex Container -->
+            <div class="container 
+    items-center px-6 mx-auto mt-10
+     space-y-0 md:space-y-0  border-b-4 border-brightRed">
+                <!-- Left paragraph -->
+                <div class="flex flex-col mb-16">
+                    <h1 class=" text-4xl  
+            font-bold text-center 
+            md:text-5xl md:text-center">
+                        About Me
+                    </h1>
+                    <p class="block mx-auto max-w-lg text-center mt-8 text-slate-950 dark:text-darkGrayishBlue ">
+                        My Name is <span class="text-brightRed text-lg font-semibold">Samson Ogbonna, An Entry Level
+                            Frontend
+                            Developer...</span>
+                        With continoues practice and hardwork as a frontend developer, I have acquired some skills and
+                        knowledge necessary to
+                        make your project a successful one.
+                        I am passionate about continuous learning in getting new experiences in software and technology.
+                        I am always eager and fast to learn new skills, tools and concepts.
+                        My expertise in
+                        React Js empowers me to create web applications that are both user-friendly and
+                        visually captivating.
+                        In addition to React Js, I am well-versed in <span
+                            class="text-brightRed text-lg font-semibold">jQuery</span>, (another Javascript powerful
+                        framework). I have
+                        a strong command of UI
+                        development using <span class="text-brightRed text-lg font-semibold">Tailwind CSS and
+                            Bootstrap</span>, ensuring consistent designs.
+
+                        I created different kinds of projects which are available for your peruasal via my <span
+                            class="text-brightRed text-lg font-semibold ">Projects section.</span>
+
+                        I am actively seeking a full-time role as a frontend developer and would welcome the opportunity
+                        to
+                        collaborate with a team that values building great user interfaces and experiences. <br>
+
+                        Outside of coding, I enjoy reading and watching football.
+                    </p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- section Projects -->
+        <section id="projects" class="bg-project  border-b-4 border-brightRed">
+            <div id="show-projects">
+
+                <div class="my-10">
+                    <h1 class=" text-4xl  
+                font-bold text-center 
+                md:text-5xl md:text-center">
+                        Projects
+                    </h1>
+                </div>
+
+                <main class="mt-3 ">
+                    <div class="grid grid-cols-1 ms-3 me-3 md:grid-cols-2 md:ms-3
+                     lg:grid-cols-3 gap-4 lg:ms-32">
+
+
+
+                        <div class="img-container last-three max-w-sm bg-slate-400 border border-gray-200 rounded-lg
+                     shadow-lg shadow-gray-500/50 ... mb-10 ">
+                            <img class="image w-96 h-96 rounded-md" src="img/question and answer.png" />
+                            <div class="p-1">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center">
+                                    Question and Answer App. <br>
+                                    Tools : React js, Tailwind css.
+
+                                </h5>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://github.com/ogbons-code/question-and-answer.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                     font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                     font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+                        <div class="img-container first-three max-w-sm bg-slate-400 border border-gray-200 rounded-lg
+                 shadow-lg shadow-gray-500/50 ... mb-10 ">
+
+                            <img class="image w-96 h-96 rounded-md" src="img/calculator.png" />
+                            <div class="p-1">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center">
+                                    Real World Calculator App.<br>
+                                    Tools : React js, Tailwind css.
+                                </h5>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://github.com/ogbons-code/My-React-Calculator-App.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                 font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                 font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="img-container first-three  max-w-sm bg-slate-400 border border-gray-200 rounded-lg
+                            shadow-lg shadow-gray-500/50 ... mb-10 ">
+                            <img class="image w-96 h-96 rounded-md" src="img/recipe-app.png" />
+                            <div class="p-1">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center">
+                                    Recipe Meals App.<br>
+                                    Tools : React js, Tailwind css.
+                                </h5>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://github.com/ogbons-code/Recipe-React-App.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                            font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                            font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="img-container first-three max-w-sm
+                         bg-slate-400 rounded-lg
+                            shadow-lg shadow-gray-500/50 ... mb-10 ">
+                            <img class="image w-96 h-96 rounded-md" src="img/age-calculator.png" />
+
+                            <div class="p-1 bg-slate-400">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight
+                                    text-gray-900 dark:text-white text-center">
+                                    Age Calculator App. <br>
+                                    Tools : React js, Tailwind css.
+                                </h5>
+                            </div>
+                            <div class="text-center ">
+                                <a href="https://github.com/ogbons-code/react-age-calculator.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="img-container last-three max-w-sm bg-slate-400 border border-gray-200 rounded-lg
+                            shadow-lg shadow-gray-500/50 ... mb-10 ">
+                            <img class="image w-96 h-96 rounded-md" src="img/user-filter.png" />
+                            <div class="p-1">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center">
+                                    Live user Filter App.<br>
+                                    Tools : React js, Tailwind css.
+                                </h5>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://github.com/ogbons-code/live-search.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+                        <div class="img-container last-three max-w-sm bg-slate-400 border border-gray-200 rounded-lg
+                            shadow-lg shadow-gray-500/50 ... mb-10 ">
+                            <img class=" image w-96 h-96 rounded-md" src="img/tip-calculator.png" />
+                            <div class="p-1">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-center">
+                                    Tip Calculator App. <br>
+                                    Tools : react js, tailwind css.
+                                </h5>
+                            </div>
+                            <div class="text-center">
+                                <a href="https://github.com/ogbons-code/react-tip-calculator.git" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 me-2 cursor-pointer ..." id="click-btn">
+                                    <i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#" class="bg-brightRed py-2 px-4 text-white text-lg 
+                                font-bold rounded-xl mb-2 cursor-pointer ..." id="click-btn">Live</a>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </main>
+
+            </div>
+
+        </section>
+
+
+        <!-- My Resume section -->
+        <section id="my-resume" class="Resume">
+            <h1 class=" text-4xl mt-10  
+        font-bold text-center 
+        md:text-5xl md:text-center hover:text-darkGrayishBlue">
+                View My Resume
+            </h1>
+            <div class="my-20 border-b-4 border-brightRed  ">
+                <a href="https://docs.google.com/document/d/1GPE7cc3pKWmd-3vcGsXxBKSBsGL_9eO7-c7O-QS-kmM/edit" class=" block mx-auto w-40 text-center 
+                hover:bg-brightRedLight 
+                 bg-brightRed py-3 px-4 text-white text-lg
+            font-bold rounded-xl mb-2  cursor-pointer ..." id="click-btn">My resume</a>
+            </div>
+        </section>
+
+
+        <!-- section Contact me -->
+        <section id="contact-me" class="contact pb-2">
+
+            <div class="my-5">
+                <h1 class=" text-4xl  
+        font-bold text-center hover:text-darkGrayishBlue
+        md:text-5xl md:text-center">
+                    Contact me
+                </h1>
+                <p class="mx-auto max-w-lg text-center mt-8 text-slate-950 ">
+                    Are you Looking for an
+                    <span class="text-brightRed text-lg font-semibold">
+                        ENTRY LEVEL FRONTEND DEVELOPER</span>,
+                    to work for you and collaborate in building web application
+                    and user interface, Feel free to reach out to me.
+                </p>
+
+            </div>
+
+            <div class="social-div mx-auto md:w-auto md:ms-20 md:me-10
+                  d md:pt-4 md:rounded-md 
+                    lg:ms-36">
+
+                <div class=" block md:flex space-x-2 justify-between mx-auto pb-2">
+                    <div class=" ms-2 mt-5 dark:ms-20 md:ms-5">
+                        <a href="https://github.com/ogbons-code?tab=repositories">
+                            <img src="img/github.png" class="social-image
+                            w-20 rounded-full h-16 ms-3"></a>
+                        <h1 class="text-center text-md font-bold">My Github</h1>
+                    </div>
+                    <div class="mt-5 md:mt-0 text-center">
+                        <h1 class="font-bold text-md">Call Me
+                            <h2 class="font-bold text-md">+2348130714038</h2>
+                        </h1>
+                    </div>
+
+                    <div class="mt-5 md:mt-0 text-center ">
+                        <h1 class="font-bold  text-md md:text-center">Email Me
+                            <h2 class="font-bold text-md">samsonogbonna95@gmail.com</h2>
+                        </h1>
+                    </div>
+
+                    <div class="pe-10 mt-5 md:mt-0">
+                        <a href="https://www.linkedin.com/in/samson-ogbonna-4b5b732a3/">
+                            <img src="img/linkedin.png" class="social-image  w-20 rounded-full h-16"></a>
+                        <h1 class="text-center text-md font-bold">My Linkedin</h1>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- footer section -->
+        <section id="footer">
+            <div class="ms-3 me-3 bg-gray-800 text-white text-center
+        w-auto mb-4 md:ms-20  md:me-10 py-3
+         gap-4 mx-auto md:bg-slate-500
+        font-sanrif text-xl font-semibold md:block lg:ms-36">
+                &copy; 2024, Created by Samson Ogbonna.
+            </div>
+        </section>
+
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
